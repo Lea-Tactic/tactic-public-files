@@ -1,0 +1,11 @@
+reStructuredText is a file format and markup language that software developers and technical writers use to produce technical documentation for Python-based software programs. When processed using the Python Docutils tool or another documentation-processing program, the markup symbols that reStructuredText (RST) files contain are transformed into text formatting.
+For example, to add a bulleted list to an RST file, an author would write the following:
+- Bulleted list item
+- Bulleted list item
+- Bulleted list item
+When processed by a documentation-processing program, the above text would be shown as:
+    • Bulleted list item
+    • Bulleted list item
+    • Bulleted list item
+RST files can also contain symbols used to indicate that text should be bolded (** **), italicized (* *), or transformed into a section header (=====) or sub-header (-----). They may also include links to images and URLs.
+
